@@ -1,60 +1,55 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) { }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) { }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) { }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  console.log("receiving data")
-  console.log(data)
-  return `
-  
-          # ${data.title}
+  return `# ${data.title}
 
-          ## Description
+## Description
           
-          ${data.description}
+${data.description}
 
-          ## Table of Contents
+## Table of Contents
 
-          - [Installation](#installation)
-          - [Usage](#usage)
-          - [Contribution](#contribution)
-          - [Tests](#tests)
-          - [License](#license)
-          - [Questions](#questions)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contribution](#contribution)
+  - [Tests](#tests)
+  - [License](#license)
+  - [Questions](#questions)
 
-        ## Installation
+## Installation
 
-        ${data.installation}
+${data.installation}
 
-        ## Usage
+## Usage
 
-        ${data.usage}
+${data.usage}
 
+## Contribution
 
-        ## Contribution
+${data.contribution}
 
-        ${data.contribution}
+## Tests
 
-        ## Test
+${data.tests}
 
-        ${data.tests}
+## License
 
-        ## Questions
-        Here is my link to my GitHub profile: ${data.github}. If you have any questions please feel free to reach me at ${data.email}.
+This application is licensed by ${data.license}
 
-        ## License
+## Questions
 
-        //TODO use license function
-
+Here is my link to my GitHub profile: ${data.github}. If you have any questions please feel free to reach me at ${data.email}.
 `;
 }
 

@@ -7,7 +7,7 @@ const questions = require('./utils/questions')
 
 function init() {
     inquirer.prompt(questions).then(answers => {
-        fs.writeFile(`${answers.title}.md`, generateMarkdown(answers), err=> console.log(err))
+        fs.writeFile(`./output/${answers.title.toUpperCase()}.md`, generateMarkdown(answers), err=> console.log(err))
         })
 }
 

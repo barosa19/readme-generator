@@ -40,12 +40,11 @@ const questions = [{
     message: 'Provide tests for this application and how to run them',
 },
 {
-    type: 'input',
+    type: 'list',
     name: "license",
     message: 'Choose a license',
     choices: ["Mit", "Apache", "GNU",]
 },
-
 ]
 
 module.exports = questions
