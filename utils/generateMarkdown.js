@@ -14,7 +14,9 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   console.log("receiving data")
   console.log(data)
-  return `# ${data.title}
+  return `
+  
+          # ${data.title}
 
           ## Description
           
@@ -22,10 +24,12 @@ function generateMarkdown(data) {
 
           ## Table of Contents
 
-        - [Installation](#installation)
-        - [Usage](#usage)
-        - [Credits](#credits)
-        - [License](#license)
+          - [Installation](#installation)
+          - [Usage](#usage)
+          - [Contribution](#contribution)
+          - [Tests](#tests)
+          - [License](#license)
+          - [Questions](#questions)
 
         ## Installation
 
@@ -35,9 +39,17 @@ function generateMarkdown(data) {
 
         ${data.usage}
 
-        ## License
 
-        //TODO use license function
+        ## Contribution
+
+        ${data.contribution}
+
+        ## Test
+
+        ${data.tests}
+
+        ## Questions
+        Here is my link to my GitHub profile: ${data.github}. If you have any questions please feel free to reach me at ${data.email}.
 
         ## License
 

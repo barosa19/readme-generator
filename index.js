@@ -7,7 +7,7 @@ const questions = require('./utils/questions')
 
 function init() {
     inquirer.prompt(questions).then(answers => {
-        fs.writeFile("sampleReadMe.md", generateMarkdown(answers), err=> console.log(err))
+        fs.writeFile(`${answers.title}.md`, generateMarkdown(answers), err=> console.log(err))
         })
 }
 
