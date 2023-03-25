@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// returns the badge for the license selected
 function renderLicense(license) {
   if (license === 'Mit'){
     return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
@@ -13,7 +12,7 @@ function renderLicense(license) {
   return ''
  }
 
-// TODO: Create a function to generate markdown for README
+//Generates markdown for README
 function generateMarkdown(data) {
   return `${renderLicense(data.license)}
 # ${data.title}
