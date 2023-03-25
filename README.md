@@ -20,6 +20,11 @@ To use this application you will need node.js and inquirer version 8.2.4
 
 Click on the output folder to see some examples of uses for this application. 
 
+## Credits
+
+Markdown License Badges are from Lukas Himsel : https://github.com/lukas-h
+Application assisted by Tutor Alexis Gonzalez
+
 ## License
 
 This application is licensed by Apache
