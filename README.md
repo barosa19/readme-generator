@@ -22,7 +22,7 @@ Click on the output folder to see some examples of uses for this application.
 
 ## Credits
 
-Markdown License Badges are from Lukas Himsel : https://github.com/lukas-h
+Markdown License Badges are from Lukas Himsel : https://github.com/lukas-h.
 Application assisted by Tutor Alexis Gonzalez
 
 ## License
