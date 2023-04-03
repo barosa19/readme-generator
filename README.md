@@ -18,7 +18,7 @@ To use this application you will need node.js and inquirer version 8.2.4
 
 ## Usage
 
-Click on the output folder to see some examples of uses for this application. 
+Here is a link to a walkthrough video of how this application runs: https://drive.google.com/file/d/1QhgGGbVxLtCkam1Q4NihigEAEcH7gsOh/view . There are some examples of genereated ReadMe files in the output folder to demonstrate the capabilities of this application. 
 
 ## Credits
 
